@@ -6,9 +6,9 @@
 		 [ring/ring-jetty-adapter "0.3.4"]
 		 [hiccup "0.3.1"]
 		 [scriptjure "0.1.20"]
-		 [fleetdb "0.2.0"]]
+             ]
   :dev-dependencies [[lein-clojars "0.6.0"]
-                     [lein-run "1.0.0"]])
+                     [lein-run "1.0.1-SNAPSHOT"]])
 
 ; Note: the project.clj file for FleetDB server is instructive
 ; with respect to Leiningen options and available libraries.
