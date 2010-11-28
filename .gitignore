@@ -1,7 +1,9 @@
 pom-generated.xml
 Manifest.txt
-thesaurian.jar
-thesaurian-standalone.jar
+thesaurian*.jar
 lib
 classes
-*~
+*~*
+*#*
+pom.xml
+
