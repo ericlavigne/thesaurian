@@ -14,4 +14,7 @@
 
 (defn index []
   (layout "Thesaurian"
-	  [:img {:src "/thesaurian.png" :alt "Thesaurian"}]))
+	  [:img {:src "/thesaurian.png" :alt "Thesaurian"}]
+          [:br] [:br]
+          [:p "This project is in early development. See the source code on "
+           (link-to "http://github.com/ericlavigne/thesaurian" "Github.")]))
